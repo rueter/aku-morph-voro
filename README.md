@@ -16,6 +16,7 @@ If you use this data in your work, I would be ever so grateful if you cited it a
 
 This repository can be cited as:
 
+[![DOI](https://zenodo.org/badge/231202593.svg)](https://zenodo.org/badge/latestdoi/231202593)
 
 
 # Acknowledgements
