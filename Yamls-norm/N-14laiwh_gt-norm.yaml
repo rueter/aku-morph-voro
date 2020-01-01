@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - laiõh: # Noun (14) laiõh 'eng /est /fin' - full paradigm
+     laiõh+N+Sg+Nom: laiõh
+     laiõh+N+Sg+Gen: laidõ
+     laiõh+N+Sg+Par: laiõht
+     laiõh+N+Sg+Ill: laidõhe
+     laiõh+N+Sg+Ine: laidõn
+     laiõh+N+Sg+Ela: laidõst
+     laiõh+N+Sg+All: laidõlõ
+     laiõh+N+Sg+Ade: laidõl
+     laiõh+N+Sg+Abl: laidõlt
+     laiõh+N+Sg+Tra: laidõs
+     laiõh+N+Sg+Ter: laidõniq
+     laiõh+N+Sg+Abe: laidõldaq
+     laiõh+N+Sg+Com: laidõgaq
+     laiõh+N+Pl+Nom: laidõq
+     laiõh+N+Pl+Gen: laididõ
+     laiõh+N+Pl+Par: laidit
+     laiõh+N+Pl+Ill: laidihe
+     laiõh+N+Pl+Ine: laidin
+     laiõh+N+Pl+Ela: laidist
+     laiõh+N+Pl+All: laidilõ
+     laiõh+N+Pl+Ade: laidil
+     laiõh+N+Pl+Abl: laidilt
+     laiõh+N+Pl+Tra: laidis
+     laiõh+N+Pl+Ter: laidiniq
+     laiõh+N+Pl+Abe: laidildaq
+     laiõh+N+Pl+Com: laididõgaq

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hamõh: # Noun (14RITSʼKAS =>PEREH) hamõh 'eng /est /fin' - full paradigm
+     hamõh+N+Sg+Nom: hamõh
+     hamõh+N+Sg+Gen: hammõ
+     hamõh+N+Sg+Par: hamõht
+     hamõh+N+Sg+Ill: hammõhe
+     hamõh+N+Sg+Ine: hammõn
+     hamõh+N+Sg+Ela: hammõst
+     hamõh+N+Sg+All: hammõlõ
+     hamõh+N+Sg+Ade: hammõl
+     hamõh+N+Sg+Abl: hammõlt
+     hamõh+N+Sg+Tra: hammõs
+     hamõh+N+Sg+Ter: hammõniq
+     hamõh+N+Sg+Abe: hammõldaq
+     hamõh+N+Sg+Com: hammõgaq
+     hamõh+N+Pl+Nom: hammõq
+     hamõh+N+Pl+Gen: hammidõ
+     hamõh+N+Pl+Par: hammit
+     hamõh+N+Pl+Ill: hammihe
+     hamõh+N+Pl+Ine: hammin
+     hamõh+N+Pl+Ela: hammist
+     hamõh+N+Pl+All: hammilõ
+     hamõh+N+Pl+Ade: hammil
+     hamõh+N+Pl+Abl: hammilt
+     hamõh+N+Pl+Tra: hammis
+     hamõh+N+Pl+Ter: hamminiq
+     hamõh+N+Pl+Abe: hammildaq
+     hamõh+N+Pl+Com: hammidõgaq

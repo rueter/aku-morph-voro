@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - "kubõl, kupl": # Noun (38) "kubõl, kupl" 'eng /est /fin' - full paradigm
+     kubõl+N+Sg+Nom: kubõl
+     kubõl+N+Sg+Gen: kubla
+     kubõl+N+Sg+Par: kupla
+     kubõl+N+Sg+Ill: kupla
+     kubõl+N+Sg+Ine: kublan
+     kubõl+N+Sg+Ela: kublast
+     kubõl+N+Sg+All: kublalõ
+     kubõl+N+Sg+Ade: kublal
+     kubõl+N+Sg+Abl: kublalt
+     kubõl+N+Sg+Tra: kublas
+     kubõl+N+Sg+Ter: kublaniq
+     kubõl+N+Sg+Abe: kublaldaq
+     kubõl+N+Sg+Com: kublagaq
+     kubõl+N+Pl+Nom: kublaq
+     kubõl+N+Pl+Gen: kuplõ
+     kubõl+N+Pl+Par: kuplõ
+     kubõl+N+Pl+Ill: kuplõhe
+     kubõl+N+Pl+Ine: kublõn
+     kubõl+N+Pl+Ela: kublõst
+     kubõl+N+Pl+All: kublõlõ
+     kubõl+N+Pl+Ade: kublõl
+     kubõl+N+Pl+Abl: kublõlt
+     kubõl+N+Pl+Tra: kublõs
+     kubõl+N+Pl+Ter: kublõniq
+     kubõl+N+Pl+Abe: kublõldaq
+     kubõl+N+Pl+Com: kuplõgaq

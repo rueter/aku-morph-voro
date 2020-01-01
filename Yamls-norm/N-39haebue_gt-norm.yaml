@@ -1,0 +1,46 @@
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - häbü: # Noun (39) häbü 'eng /est /fin' - full paradigm
+     häbü+N+Sg+Nom: häbü
+     häbü+N+Sg+Gen: häü
+     häbü+N+Sg+Par: häpü
+     häbü+N+Sg+Ill: häppü
+     häbü+N+Sg+Ine: häün
+     häbü+N+Sg+Ela: häüst
+     häbü+N+Sg+All: häüle
+     häbü+N+Sg+Ade: häül
+     häbü+N+Sg+Abl: häült
+     häbü+N+Sg+Tra: häüs
+     häbü+N+Sg+Ter: häüniq
+     häbü+N+Sg+Abe: häüldäq
+     häbü+N+Sg+Com: häügaq
+     häbü+N+Pl+Nom: häüq
+     häbü+N+Pl+Gen: häpe
+     häbü+N+Pl+Par: häpe
+     häbü+N+Pl+Ill: häppehe
+     häbü+N+Pl+Ine: häpen
+     häbü+N+Pl+Ela: häpest
+     häbü+N+Pl+All: häpele
+     häbü+N+Pl+Ade: häpel
+     häbü+N+Pl+Abl: häpelt
+     häbü+N+Pl+Tra: häpes
+     häbü+N+Pl+Ter: häpeniq
+     häbü+N+Pl+Abe: häpeldäq
+     häbü+N+Pl+Com: häpegaq

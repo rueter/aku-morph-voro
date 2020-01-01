@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - `kuldnõ: # Adjective (8) `kuldnõ 'eng /est /fin' - full paradigm
+     kuldnõ+A+Sg+Nom: kuldnõ
+     kuldnõ+A+Sg+Gen: kuldsõ
+     kuldnõ+A+Sg+Par: kuldsõt
+     kuldnõ+A+Sg+Ill: kuldsõhe
+     kuldnõ+A+Sg+Ine: kuldsõn
+     kuldnõ+A+Sg+Ade: kuldsõl
+     kuldnõ+A+Sg+Abl: kuldsõlt
+     kuldnõ+A+Sg+Tra: kuldsõs
+     kuldnõ+A+Sg+Ter: kuldsõniq
+     kuldnõ+A+Sg+Abe: kuldsõldaq
+     kuldnõ+A+Sg+Com: kuldsõgaq
+     kuldnõ+A+Pl+Nom: kuldsõq
+     kuldnõ+A+Pl+Gen: kuldsidõ
+     kuldnõ+A+Pl+Par: kuldsit
+     kuldnõ+A+Pl+Ill: kuldsihe
+     kuldnõ+A+Pl+Ine: kuldsin
+     kuldnõ+A+Pl+Ela: kuldsist
+     kuldnõ+A+Pl+All: kuldsilõ
+     kuldnõ+A+Pl+Ade: kuldsil
+     kuldnõ+A+Pl+Abl: kuldsilt
+     kuldnõ+A+Pl+Tra: kuldsis
+     kuldnõ+A+Pl+Ter: kuldsiniq
+     kuldnõ+A+Pl+Abe: kuldsildaq
+     kuldnõ+A+Pl+Com: kuldsidõgaq

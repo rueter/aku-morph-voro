@@ -1,0 +1,84 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - viskama: # Verb (63) '/(eng) to throw /(fin) heittää' - partial paradigm
+     viskama+V+Inf/mA: viskama
+     viskama+V+Inf: visadaq
+     viskama+V+Ind+Prs+ScSg1: viska
+     viskama+V+Ind+Prs+ScSg2: [viskat, viskadõq]
+     viskama+V+Ind+Prs+ScSg3: viskas
+     viskama+V+Ind+Prs+ScPl1: viskamiq
+     viskama+V+Ind+Prs+ScPl2: [viskatiq, viskat, viskadõq]
+     viskama+V+Ind+Prs+ScPl3: viskasõq
+     viskama+V+Ind+Prs+Sc+ConNeg: [viska, viska-aiq, viskaq]
+     viskama+V+Ind+Prs+OcSg1: visada
+     viskama+V+Ind+Prs+OcSg2: [visatat, visatadõq]
+     viskama+V+Ind+Prs+OcSg3: visatas
+     viskama+V+Ind+Prs+OcPl1: visatamiq
+     viskama+V+Ind+Prs+OcPl2: [visatatiq, visatadõq]
+     viskama+V+Ind+Prs+OcPl3: visatasõq
+     viskama+V+Ind+Prs+Oc+ConNeg: [visada, visada-aiq, visadaq]
+
+     viskama+V+Ind+Prt+ScSg1: visksi
+     viskama+V+Ind+Prt+ScSg2: [visksiq, visksit, visksidõq]
+     viskama+V+Ind+Prt+ScSg3: visasʼ
+     viskama+V+Ind+Prt+ScPl1: [visksimiq, visksi]
+     viskama+V+Ind+Prt+ScPl2: [visksitiq, visksiq, visksit, visksidõq]
+     viskama+V+Ind+Prt+ScPl3: [visksiq, visksivaq]
+     viskama+V+Ind+Prt+Sc+ConNeg: [viska, viska-as, viskaq]
+     viskama+V+Ind+Prt+OcSg1: visadi
+     viskama+V+Ind+Prt+OcSg2: [visadiq, visatit, visatidõq]
+     viskama+V+Ind+Prt+OcSg3: visati
+     viskama+V+Ind+Prt+OcPl1: [visatimiq, visadi]
+     viskama+V+Ind+Prt+OcPl2: [visatitiq, visadiq, visatit, visatidõq]
+     viskama+V+Ind+Prt+OcPl3: visadiq
+     viskama+V+Ind+Prt+Oc+ConNeg: [visada, visada-as, visada-s, visadaq]
+
+     viskama+V+Act+PrsPrc+Sg+Nom: viskav
+     viskama+V+Act+PrsPrc+Sg+Gen: viskava
+     viskama+V+Act+PrsPrc+Sg+Par: viskavat
+     viskama+V+Act+PrsPrc+Sg+Ill: viskavahe
+     viskama+V+Act+PrsPrc+Pl+Nom: viskavaq
+     viskama+V+Act+PrsPrc+Pl+Gen: viskavidõ
+     viskama+V+Act+PrsPrc+Pl+Par: viskavit
+     viskama+V+Act+PrsPrc+Pl+Ill: viskavihe
+                    
+     viskama+V+Pss+PrsPrc+Sg+Nom: visatav
+     viskama+V+Pss+PrsPrc+Sg+Gen: visatava
+     viskama+V+Pss+PrsPrc+Sg+Par: visatavat
+     viskama+V+Pss+PrsPrc+Sg+Ill: visatavahe
+     viskama+V+Pss+PrsPrc+Pl+Nom: visatavaq
+     viskama+V+Pss+PrsPrc+Pl+Gen: visatavidõ
+     viskama+V+Pss+PrsPrc+Pl+Par: visatavit
+     viskama+V+Pss+PrsPrc+Pl+Ill: visatavihe
+
+     viskama+V+Act+PrtPrc+Sg+Nom: visanuq
+     viskama+V+Act+PrtPrc+Sg+Gen: visanuq
+     viskama+V+Act+PrtPrc+Sg+Par: visanut
+     viskama+V+Act+PrtPrc+Sg+Ill: visanuhe
+     viskama+V+Act+PrtPrc+Pl+Nom: visanuq
+     viskama+V+Act+PrtPrc+Pl+Gen: [visanuidõ, visanuisi]
+     viskama+V+Act+PrtPrc+Pl+Par: [visanuid, visanuisi]
+     viskama+V+Act+PrtPrc+Pl+Ill: [visanuihe, visanuisihe]
+
+     viskama+V+Pss+PrtPrc+Sg+Nom: visat
+     viskama+V+Pss+PrtPrc+Sg+Gen: visadu
+     viskama+V+Pss+PrtPrc+Sg+Par: visatut
+     viskama+V+Pss+PrtPrc+Sg+Ill: visatuhe
+     viskama+V+Pss+PrtPrc+Pl+Nom: visaduq
+     viskama+V+Pss+PrtPrc+Pl+Gen: [visatuidõ, visatuisi]
+     viskama+V+Pss+PrtPrc+Pl+Par: [visatuid, visatuisi]
+     viskama+V+Pss+PrtPrc+Pl+Ill: [visatuihe, visatuisihe]

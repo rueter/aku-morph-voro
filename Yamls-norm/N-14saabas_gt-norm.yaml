@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - saabas: # Noun (14) saabas 'eng /est /fin' - full paradigm
+     saabas+N+Sg+Nom: saabas
+     saabas+N+Sg+Gen: saapa
+     saabas+N+Sg+Par: saabast
+     saabas+N+Sg+Ill: saapahe
+     saabas+N+Sg+Ine: saapan
+     saabas+N+Sg+Ela: saapast
+     saabas+N+Sg+All: saapalõ
+     saabas+N+Sg+Ade: saapal
+     saabas+N+Sg+Abl: saapalt
+     saabas+N+Sg+Tra: saapas
+     saabas+N+Sg+Ter: saapaniq
+     saabas+N+Sg+Abe: saapaldaq
+     saabas+N+Sg+Com: saapagaq
+     saabas+N+Pl+Nom: saapaq
+     saabas+N+Pl+Gen: saapidõ
+     saabas+N+Pl+Par: saapit
+     saabas+N+Pl+Ill: saapihe
+     saabas+N+Pl+Ine: saapin
+     saabas+N+Pl+Ela: saapist
+     saabas+N+Pl+All: saapilõ
+     saabas+N+Pl+Ade: saapil
+     saabas+N+Pl+Abl: saapilt
+     saabas+N+Pl+Tra: saapis
+     saabas+N+Pl+Ter: saapiniq
+     saabas+N+Pl+Abe: saapildaq
+     saabas+N+Pl+Com: saapidõgaq

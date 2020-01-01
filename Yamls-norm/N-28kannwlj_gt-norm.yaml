@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kannõĺ: # Noun (28) kannõĺ 'eng /est /fin' - full paradigm
+     kannõĺ+N+Sg+Nom: kannõĺ
+     kannõĺ+N+Sg+Gen: kandlõ
+     kannõĺ+N+Sg+Par: kannõld
+     kannõĺ+N+Sg+Ill: kandlõhe
+     kannõĺ+N+Sg+Ine: kandlõn
+     kannõĺ+N+Sg+Ela: kandlõst
+     kannõĺ+N+Sg+All: kandlõlõ
+     kannõĺ+N+Sg+Ade: kandlõl
+     kannõĺ+N+Sg+Abl: kandlõlt
+     kannõĺ+N+Sg+Tra: kandlõs
+     kannõĺ+N+Sg+Ter: kandlõniq
+     kannõĺ+N+Sg+Abe: kandlõldaq
+     kannõĺ+N+Sg+Com: kandlõgaq
+     kannõĺ+N+Pl+Nom: kandlõq
+     kannõĺ+N+Pl+Gen: kandlidõ
+     kannõĺ+N+Pl+Par: kandlit
+     kannõĺ+N+Pl+Ill: kandlihe
+     kannõĺ+N+Pl+Ine: kandlin
+     kannõĺ+N+Pl+Ela: kandlist
+     kannõĺ+N+Pl+All: kandlilõ
+     kannõĺ+N+Pl+Ade: kandlil
+     kannõĺ+N+Pl+Abl: kandlilt
+     kannõĺ+N+Pl+Tra: kandlis
+     kannõĺ+N+Pl+Ter: kandliniq
+     kannõĺ+N+Pl+Abe: kandlildaq
+     kannõĺ+N+Pl+Com: kandlidõgaq

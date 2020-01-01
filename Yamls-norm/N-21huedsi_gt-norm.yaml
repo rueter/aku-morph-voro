@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hüdsi: # Noun (21) hüdsi 'eng /est /fin' - full paradigm
+     hüdsi+N+Sg+Nom: hüdsi
+     hüdsi+N+Sg+Gen: hüdse
+     hüdsi+N+Sg+Par: hüst
+     hüdsi+N+Sg+Ill: hütsi
+     hüdsi+N+Sg+Ine: hüdsen
+     hüdsi+N+Sg+Ela: hüdsest
+     hüdsi+N+Sg+All: hüdsele
+     hüdsi+N+Sg+Ade: hüdsel
+     hüdsi+N+Sg+Abl: hüdselt
+     hüdsi+N+Sg+Tra: hüdses
+     hüdsi+N+Sg+Ter: hüdseniq
+     hüdsi+N+Sg+Abe: hüdseldäq
+     hüdsi+N+Sg+Com: hüdsegaq
+     hüdsi+N+Pl+Nom: hüdseq
+     hüdsi+N+Pl+Gen: hütsi
+     hüdsi+N+Pl+Par: hütsi
+     hüdsi+N+Pl+Ill: hütsihe
+     hüdsi+N+Pl+Ine: hüdsin
+     hüdsi+N+Pl+Ela: hüdsist
+     hüdsi+N+Pl+All: hüdsile
+     hüdsi+N+Pl+Ade: hüdsil
+     hüdsi+N+Pl+Abl: hüdsilt
+     hüdsi+N+Pl+Tra: hüdsis
+     hüdsi+N+Pl+Ter: hüdsiniq
+     hüdsi+N+Pl+Abe: hüdsildäq
+     hüdsi+N+Pl+Com: hütsigaq

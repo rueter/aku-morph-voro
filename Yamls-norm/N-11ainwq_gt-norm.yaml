@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ainõq: # Noun (11) ainõq 'eng /est /fin' - full paradigm
+     ainõq+N+Sg+Nom: ainõq
+     ainõq+N+Sg+Gen: ainõ
+     ainõq+N+Sg+Par: ainõt
+     ainõq+N+Sg+Ill: ainõhe
+     ainõq+N+Sg+Ine: ainõn
+     ainõq+N+Sg+Ela: ainõst
+     ainõq+N+Sg+All: ainõlõ
+     ainõq+N+Sg+Ade: ainõl
+     ainõq+N+Sg+Abl: ainõlt
+     ainõq+N+Sg+Tra: ainõs
+     ainõq+N+Sg+Ter: ainõniq
+     ainõq+N+Sg+Abe: ainõldaq
+     ainõq+N+Sg+Com: ainõgaq
+     ainõq+N+Pl+Nom: ainõq
+     ainõq+N+Pl+Gen: ainidõ
+     ainõq+N+Pl+Par: ainit
+     ainõq+N+Pl+Ill: ainihe
+     ainõq+N+Pl+Ine: ainin
+     ainõq+N+Pl+Ela: ainist
+     ainõq+N+Pl+All: ainilõ
+     ainõq+N+Pl+Ade: ainil
+     ainõq+N+Pl+Abl: ainilt
+     ainõq+N+Pl+Tra: ainis
+     ainõq+N+Pl+Ter: aininiq
+     ainõq+N+Pl+Abe: ainildaq
+     ainõq+N+Pl+Com: ainidõgaq

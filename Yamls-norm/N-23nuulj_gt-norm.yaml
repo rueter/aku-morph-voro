@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nuuĺ: # Noun (23) nuuĺ 'eng /est /fin' - full paradigm
+     nuuĺ+N+Sg+Nom: nuuĺ
+     nuuĺ+N+Sg+Gen: noolõ
+     nuuĺ+N+Sg+Par: nuult
+     nuuĺ+N+Sg+Ill: nuuldõ
+     nuuĺ+N+Sg+Ine: noolõn
+     nuuĺ+N+Sg+Ela: noolõst
+     nuuĺ+N+Sg+All: noolõlõ
+     nuuĺ+N+Sg+Ade: noolõl
+     nuuĺ+N+Sg+Abl: noolõlt
+     nuuĺ+N+Sg+Tra: noolõs
+     nuuĺ+N+Sg+Ter: noolõniq
+     nuuĺ+N+Sg+Abe: noolõldaq
+     nuuĺ+N+Sg+Com: noolõgaq
+     nuuĺ+N+Pl+Nom: noolõq
+     nuuĺ+N+Pl+Gen: nuuli
+     nuuĺ+N+Pl+Par: nuuli
+     nuuĺ+N+Pl+Ill: nuulihe
+     nuuĺ+N+Pl+Ine: noolin
+     nuuĺ+N+Pl+Ela: noolist
+     nuuĺ+N+Pl+All: noolilõ
+     nuuĺ+N+Pl+Ade: noolil
+     nuuĺ+N+Pl+Abl: noolilt
+     nuuĺ+N+Pl+Tra: noolis
+     nuuĺ+N+Pl+Ter: nooliniq
+     nuuĺ+N+Pl+Abe: noolildaq
+     nuuĺ+N+Pl+Com: nuuligaq

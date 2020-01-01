@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hammas: # Noun (14+Gradation) hammas 'eng tooth/est /fin' - full paradigm
+     hammas+N+Sg+Nom: hammas
+     hammas+N+Sg+Gen: hamba
+     hammas+N+Sg+Par: hammast
+     hammas+N+Sg+Ill: hambahe
+     hammas+N+Sg+Ine: hamban
+     hammas+N+Sg+Ela: hambast
+     hammas+N+Sg+All: hambalõ
+     hammas+N+Sg+Ade: hambal
+     hammas+N+Sg+Abl: hambalt
+     hammas+N+Sg+Tra: hambas
+     hammas+N+Sg+Ter: hambaniq
+     hammas+N+Sg+Abe: hambaldaq
+     hammas+N+Sg+Com: hambagaq
+     hammas+N+Pl+Nom: hambaq
+     hammas+N+Pl+Gen: hambidõ
+     hammas+N+Pl+Par: hambit
+     hammas+N+Pl+Ill: hambihe
+     hammas+N+Pl+Ine: hambin
+     hammas+N+Pl+Ela: hambist
+     hammas+N+Pl+All: hambilõ
+     hammas+N+Pl+Ade: hambil
+     hammas+N+Pl+Abl: hambilt
+     hammas+N+Pl+Tra: hambis
+     hammas+N+Pl+Ter: hambiniq
+     hammas+N+Pl+Abe: hambildaq
+     hammas+N+Pl+Com: hambidõgaq

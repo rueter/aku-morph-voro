@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - väitś: # Noun (20) väitś 'eng /est /fin' - full paradigm
+     väitś+N+Sg+Nom: väitś
+     väitś+N+Sg+Gen: väidse
+     väitś+N+Sg+Par: väist
+     väitś+N+Sg+Ill: väiste
+     väitś+N+Sg+Ine: väidsen
+     väitś+N+Sg+Ela: väidsest
+     väitś+N+Sg+All: väidsele
+     väitś+N+Sg+Ade: väidsel
+     väitś+N+Sg+Abl: väidselt
+     väitś+N+Sg+Tra: väidses
+     väitś+N+Sg+Ter: väidseniq
+     väitś+N+Sg+Abe: väidseldäq
+     väitś+N+Sg+Com: väidsegaq
+     väitś+N+Pl+Nom: väidseq
+     väitś+N+Pl+Gen: väitsi
+     väitś+N+Pl+Par: väitsi
+     väitś+N+Pl+Ill: väitsihe
+     väitś+N+Pl+Ine: väidsin
+     väitś+N+Pl+Ela: väidsist
+     väitś+N+Pl+All: väidsile
+     väitś+N+Pl+Ade: väidsil
+     väitś+N+Pl+Abl: väidsilt
+     väitś+N+Pl+Tra: väidsis
+     väitś+N+Pl+Ter: väidsiniq
+     väitś+N+Pl+Abe: väidsildäq
+     väitś+N+Pl+Com: väitsigaq

@@ -1,0 +1,46 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kuuĺ: # Noun (38) kuuĺ 'eng /est /fin' - full paradigm
+     kuuĺ+Hom2+N+Sg+Nom: kuuĺ
+     kuuĺ+Hom2+N+Sg+Gen: kooli
+     kuuĺ+Hom2+N+Sg+Par: kuuli
+     kuuĺ+Hom2+N+Sg+Ill: kuuli
+     kuuĺ+Hom2+N+Sg+Ine: koolin
+     kuuĺ+Hom2+N+Sg+Ela: koolist
+     kuuĺ+Hom2+N+Sg+All: koolilõ
+     kuuĺ+Hom2+N+Sg+Ade: koolil
+     kuuĺ+Hom2+N+Sg+Abl: koolilt
+     kuuĺ+Hom2+N+Sg+Tra: koolis
+     kuuĺ+Hom2+N+Sg+Ter: kooliniq
+     kuuĺ+Hom2+N+Sg+Abe: koolildaq
+     kuuĺ+Hom2+N+Sg+Com: kooligaq
+     kuuĺ+Hom2+N+Pl+Nom: kooliq
+     kuuĺ+Hom2+N+Pl+Gen: kuulõ
+     kuuĺ+Hom2+N+Pl+Par: kuulõ
+     kuuĺ+Hom2+N+Pl+Ill: kuulõhe
+     kuuĺ+Hom2+N+Pl+Ine: koolõn
+     kuuĺ+Hom2+N+Pl+Ela: koolõst
+     kuuĺ+Hom2+N+Pl+All: koolõlõ
+     kuuĺ+Hom2+N+Pl+Ade: koolõl
+     kuuĺ+Hom2+N+Pl+Abl: koolõlt
+     kuuĺ+Hom2+N+Pl+Tra: koolõs
+     kuuĺ+Hom2+N+Pl+Ter: koolõniq
+     kuuĺ+Hom2+N+Pl+Abe: koolõldaq
+     kuuĺ+Hom2+N+Pl+Com: kuulõgaq
+

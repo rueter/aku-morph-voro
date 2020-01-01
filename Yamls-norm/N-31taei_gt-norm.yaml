@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - täi: # Noun (31) täi 'eng /est /fin' - full paradigm
+    täi+N+Sg+Nom: täi
+    täi+N+Sg+Gen: täi
+    täi+N+Sg+Par: täid
+    täi+N+Sg+Ill: täihte
+    täi+N+Sg+Ine: täin
+    täi+N+Sg+Ela: täist
+    täi+N+Sg+All: täile
+    täi+N+Sg+Ade: täil
+    täi+N+Sg+Abl: täilt
+    täi+N+Sg+Tra: täis
+    täi+N+Sg+Ter: täiniq
+    täi+N+Sg+Abe: täildäq
+    täi+N+Sg+Com: täigaq
+    täi+N+Pl+Nom: täiq
+    täi+N+Pl+Gen: täie
+    täi+N+Pl+Par: täie
+    täi+N+Pl+Ill: täihte
+    täi+N+Pl+Ine: täen
+    täi+N+Pl+Ela: täest
+    täi+N+Pl+All: täele
+    täi+N+Pl+Ade: täel
+    täi+N+Pl+Abl: täelt
+    täi+N+Pl+Tra: täes
+    täi+N+Pl+Ter: täeniq
+    täi+N+Pl+Abe: täeldäq
+    täi+N+Pl+Com: täiegaq

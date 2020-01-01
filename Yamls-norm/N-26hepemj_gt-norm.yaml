@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hepeḿ: # Noun (25) hepeḿ 'eng /est /fin' - full paradigm
+     hepeḿ+N+Sg+Nom: hepeḿ
+     hepeḿ+N+Sg+Gen: hebeme
+     hepeḿ+N+Sg+Par: hebend
+     hepeḿ+N+Sg+Ill: hepemehe
+     hepeḿ+N+Sg+Ine: hepemen
+     hepeḿ+N+Sg+Ela: hepemest
+     hepeḿ+N+Sg+All: hepemele
+     hepeḿ+N+Sg+Ade: hepemel
+     hepeḿ+N+Sg+Abl: hepemelt
+     hepeḿ+N+Sg+Tra: hepemes
+     hepeḿ+N+Sg+Ter: hepemeniq
+     hepeḿ+N+Sg+Abe: hepemeldäq
+     hepeḿ+N+Sg+Com: hepemegaq
+     hepeḿ+N+Pl+Nom: hepemeq
+     hepeḿ+N+Pl+Gen: hepemide
+     hepeḿ+N+Pl+Par: hepemit
+     hepeḿ+N+Pl+Ill: hepemihe
+     hepeḿ+N+Pl+Ine: hepemin
+     hepeḿ+N+Pl+Ela: hepemist
+     hepeḿ+N+Pl+All: hepemile
+     hepeḿ+N+Pl+Ade: hepemil
+     hepeḿ+N+Pl+Abl: hepemilt
+     hepeḿ+N+Pl+Tra: hepemis
+     hepeḿ+N+Pl+Ter: hepeminiq
+     hepeḿ+N+Pl+Abe: hepemildäq
+     hepeḿ+N+Pl+Com: hepemidegaq

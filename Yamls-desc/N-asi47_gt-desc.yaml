@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-desc.hfst
+    Morph: ../../../src/analyser-gt-desc.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-desc.xfst
+    Morph: ../../../src/analyser-gt-desc.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - asi: # Noun (47) asi 'eng /est /fin' - full paradigm
+     asi+N+Sg+Nom: asi
+     asi+N+Sg+Gen: aśa
+     asi+N+Sg+Par: asja
+     asi+N+Sg+Ill: asja
+     asi+N+Sg+Ine: [aśan, aśah, aśahn]
+     asi+N+Sg+Ela: aśast
+     asi+N+Sg+All: aśalõ
+     asi+N+Sg+Ade: aśal
+     asi+N+Sg+Abl: aśalt
+     asi+N+Sg+Tra: aśas
+     asi+N+Sg+Ter: aśaniq
+     asi+N+Sg+Abe: aśaldaq
+     asi+N+Sg+Com: aśagaq
+     asi+N+Pl+Nom: aśaq
+     asi+N+Pl+Gen: asjo
+     asi+N+Pl+Par: asjo
+     asi+N+Pl+Ill: [asjohe, asjo, asjodõ]
+     asi+N+Pl+Ine: [aśon, aśoh, aśohn]
+     asi+N+Pl+Ela: aśost
+     asi+N+Pl+All: aśolõ
+     asi+N+Pl+Ade: aśol
+     asi+N+Pl+Abl: aśolt
+     asi+N+Pl+Tra: aśos
+     asi+N+Pl+Ter: aśoniq
+     asi+N+Pl+Abe: aśoldaq
+     asi+N+Pl+Com: asjogaq

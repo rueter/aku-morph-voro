@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pini: # Noun (37) pini 'eng /est /fin' - full paradigm
+    pini+N+Sg+Nom: pini
+    pini+N+Sg+Gen: pini
+    pini+N+Sg+Par: pinni
+    pini+N+Sg+Ill: pinni
+    pini+N+Sg+Ine: pinin
+    pini+N+Sg+Ela: pinist
+    pini+N+Sg+All: pinile
+    pini+N+Sg+Ade: pinil
+    pini+N+Sg+Abl: pinilt
+    pini+N+Sg+Tra: pinis
+    pini+N+Sg+Ter: pininiq
+    pini+N+Sg+Abe: pinildäq
+    pini+N+Sg+Com: pinigaq
+    pini+N+Pl+Nom: piniq
+    pini+N+Pl+Gen: pinne
+    pini+N+Pl+Par: pinne
+    pini+N+Pl+Ill: pinnehe
+    pini+N+Pl+Ine: pinen
+    pini+N+Pl+Ela: pinest
+    pini+N+Pl+All: pinele
+    pini+N+Pl+Ade: pinel
+    pini+N+Pl+Abl: pinelt
+    pini+N+Pl+Tra: pines
+    pini+N+Pl+Ter: pineniq
+    pini+N+Pl+Abe: pineldäq
+    pini+N+Pl+Com: pinnegaq

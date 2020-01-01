@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - sõda: # Noun (44) sõda 'eng /est /fin' - full paradigm
+    sõda+N+Sg+Nom: sõda
+    sõda+N+Sg+Gen: sõa
+    sõda+N+Sg+Par: sõta
+    sõda+N+Sg+Ill: sõta
+    sõda+N+Sg+Ine: sõan
+    sõda+N+Sg+Ela: sõast
+    sõda+N+Sg+All: sõalõ
+    sõda+N+Sg+Ade: sõal
+    sõda+N+Sg+Abl: sõalt
+    sõda+N+Sg+Tra: sõas
+    sõda+N+Sg+Ter: sõaniq
+    sõda+N+Sg+Abe: sõaldaq
+    sõda+N+Sg+Com: sõagaq
+    sõda+N+Pl+Nom: sõaq
+    sõda+N+Pl+Gen: sõto
+    sõda+N+Pl+Par: sõto
+    sõda+N+Pl+Ill: sõttohe
+    sõda+N+Pl+Ine: sõton
+    sõda+N+Pl+Ela: sõtost
+    sõda+N+Pl+All: sõtolõ
+    sõda+N+Pl+Ade: sõtol
+    sõda+N+Pl+Abl: sõtolt
+    sõda+N+Pl+Tra: sõtos
+    sõda+N+Pl+Ter: sõtoniq
+    sõda+N+Pl+Abe: sõtoldaq
+    sõda+N+Pl+Com: sõtogaq

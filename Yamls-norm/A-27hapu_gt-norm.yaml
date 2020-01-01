@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Adjective - hapu: # Adjective (27) hapu 'eng /est /fin' - full paradigm
+     hapu+A+Sg+Nom: hapu
+     hapu+A+Sg+Gen: hapnõ
+     hapu+A+Sg+Par: hapund
+     hapu+A+Sg+Ill: hapnõhe
+     hapu+A+Sg+Ine: hapnõn
+     hapu+A+Sg+Ela: hapnõst
+     hapu+A+Sg+All: hapnõlõ
+     hapu+A+Sg+Ade: hapnõl
+     hapu+A+Sg+Abl: hapnõlt
+     hapu+A+Sg+Tra: hapnõs
+     hapu+A+Sg+Ter: hapnõniq
+     hapu+A+Sg+Abe: hapnõldaq
+     hapu+A+Sg+Com: hapnõgaq
+     hapu+A+Pl+Nom: hapnõq
+     hapu+A+Pl+Gen: hapnidõ
+     hapu+A+Pl+Par: hapnit
+     hapu+A+Pl+Ill: hapnihe
+     hapu+A+Pl+Ine: hapnin
+     hapu+A+Pl+Ela: hapnist
+     hapu+A+Pl+All: hapnilõ
+     hapu+A+Pl+Ade: hapnil
+     hapu+A+Pl+Abl: hapnilt
+     hapu+A+Pl+Tra: hapnis
+     hapu+A+Pl+Ter: hapniniq
+     hapu+A+Pl+Abe: hapnildaq
+     hapu+A+Pl+Com: hapnidõgaq

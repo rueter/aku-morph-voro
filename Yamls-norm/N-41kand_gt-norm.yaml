@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kand: # Noun (41) kand 'eng /est /fin' - full paradigm
+     kand+N+Sg+Nom: kand
+     kand+N+Sg+Gen: kanno
+     kand+N+Sg+Par: kando
+     kand+N+Sg+Ill: kando
+     kand+N+Sg+Ine: kannon
+     kand+N+Sg+Ela: kannost
+     kand+N+Sg+All: kannolõ
+     kand+N+Sg+Ade: kannol
+     kand+N+Sg+Abl: kannolt
+     kand+N+Sg+Tra: kannos
+     kand+N+Sg+Ter: kannoniq
+     kand+N+Sg+Abe: kannoldaq
+     kand+N+Sg+Com: kannogaq
+     kand+N+Pl+Nom: kannoq
+     kand+N+Pl+Gen: kandõ
+     kand+N+Pl+Par: kandõ
+     kand+N+Pl+Ill: kandõhe
+     kand+N+Pl+Ine: kannõn
+     kand+N+Pl+Ela: kannõst
+     kand+N+Pl+All: kannõlõ
+     kand+N+Pl+Ade: kannõl
+     kand+N+Pl+Abl: kannõlt
+     kand+N+Pl+Tra: kannõs
+     kand+N+Pl+Ter: kannõniq
+     kand+N+Pl+Abe: kannõldaq
+     kand+N+Pl+Com: kandõgaq

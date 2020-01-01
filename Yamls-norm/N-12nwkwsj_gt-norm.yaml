@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - nõkõś: # Noun (12) nõkõś 'eng /est /fin' - full paradigm
+     nõkõś+N+Sg+Nom: nõkõś
+     nõkõś+N+Sg+Gen: nõgõsõ
+     nõkõś+N+Sg+Par: nõgõst
+     nõkõś+N+Sg+Ill: nõgõssõhe
+     nõkõś+N+Sg+Ine: nõgõssõn
+     nõkõś+N+Sg+Ela: nõgõssõst
+     nõkõś+N+Sg+All: nõgõssõlõ
+     nõkõś+N+Sg+Ade: nõgõssõl
+     nõkõś+N+Sg+Abl: nõgõssõlt
+     nõkõś+N+Sg+Tra: nõgõssõs
+     nõkõś+N+Sg+Ter: nõgõssõniq
+     nõkõś+N+Sg+Abe: nõgõssõldaq
+     nõkõś+N+Sg+Com: nõgõsõgaq
+     nõkõś+N+Pl+Nom: nõgõsõq
+     nõkõś+N+Pl+Gen: nõgõssidõ
+     nõkõś+N+Pl+Par: nõgõssit
+     nõkõś+N+Pl+Ill: nõgõssihe
+     nõkõś+N+Pl+Ine: nõgõssin
+     nõkõś+N+Pl+Ela: nõgõssist
+     nõkõś+N+Pl+All: nõgõssilõ
+     nõkõś+N+Pl+Ade: nõgõssil
+     nõkõś+N+Pl+Abl: nõgõssilt
+     nõkõś+N+Pl+Tra: nõgõssis
+     nõkõś+N+Pl+Ter: nõgõssiniq
+     nõkõś+N+Pl+Abe: nõgõssildaq
+     nõkõś+N+Pl+Com: nõgõssidõgaq

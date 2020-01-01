@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - häielm: # Noun (36) häielm 'eng /est /fin' - full paradigm
+     häielm+N+Sg+Nom: häielm
+     häielm+N+Sg+Gen: häielmä
+     häielm+N+Sg+Par: häielmät
+     häielm+N+Sg+Ill: häielmähe
+     häielm+N+Sg+Ine: häielmän
+     häielm+N+Sg+Ela: häielmäst
+     häielm+N+Sg+All: häielmäle
+     häielm+N+Sg+Ade: häielmäl
+     häielm+N+Sg+Abl: häielmält
+     häielm+N+Sg+Tra: häielmäs
+     häielm+N+Sg+Ter: häielmäniq
+     häielm+N+Sg+Abe: häielmäldäq
+     häielm+N+Sg+Com: häielmägaq
+     häielm+N+Pl+Nom: häielmäq
+     häielm+N+Pl+Gen: häielmide
+     häielm+N+Pl+Par: häielmit
+     häielm+N+Pl+Ill: häielmihe
+     häielm+N+Pl+Ine: häielmin
+     häielm+N+Pl+Ela: häielmist
+     häielm+N+Pl+All: häielmile
+     häielm+N+Pl+Ade: häielmil
+     häielm+N+Pl+Abl: häielmilt
+     häielm+N+Pl+Tra: häielmis
+     häielm+N+Pl+Ter: häielminiq
+     häielm+N+Pl+Abe: häielmildäq
+     häielm+N+Pl+Com: häielmidegaq

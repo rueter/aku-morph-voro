@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - veri: # Noun (32) veri 'eng /est /fin' - full paradigm
+     veri+N+Sg+Nom: veri
+     veri+N+Sg+Gen: vere
+     veri+N+Sg+Par: verd
+     veri+N+Sg+Ill: verri
+     veri+N+Sg+Ine: veren
+     veri+N+Sg+Ela: verest
+     veri+N+Sg+All: verele
+     veri+N+Sg+Ade: verel
+     veri+N+Sg+Abl: verelt
+     veri+N+Sg+Tra: veres
+     veri+N+Sg+Ter: vereniq
+     veri+N+Sg+Abe: vereldäq
+     veri+N+Sg+Com: veregaq
+     veri+N+Pl+Nom: vereq
+     veri+N+Pl+Gen: verri
+     veri+N+Pl+Par: verri
+     veri+N+Pl+Ill: verrihe
+     veri+N+Pl+Ine: verin
+     veri+N+Pl+Ela: verist
+     veri+N+Pl+All: verile
+     veri+N+Pl+Ade: veril
+     veri+N+Pl+Abl: verilt
+     veri+N+Pl+Tra: veris
+     veri+N+Pl+Ter: veriniq
+     veri+N+Pl+Abe: verildäq
+     veri+N+Pl+Com: verrigaq

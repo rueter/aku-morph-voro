@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - kanarik: # Noun (43) kanarik 'eng /est /fin' - full paradigm
+     kanarik+N+Sg+Nom: kanarik
+     kanarik+N+Sg+Gen: kanarigu
+     kanarik+N+Sg+Par: kanarikku
+     kanarik+N+Sg+Ill: kanarikku
+     kanarik+N+Sg+Ine: kanarigun
+     kanarik+N+Sg+Ela: kanarigust
+     kanarik+N+Sg+All: kanarigulõ
+     kanarik+N+Sg+Ade: kanarigul
+     kanarik+N+Sg+Abl: kanarigult
+     kanarik+N+Sg+Tra: kanarigus
+     kanarik+N+Sg+Ter: kanariguniq
+     kanarik+N+Sg+Abe: kanariguldaq
+     kanarik+N+Sg+Com: kanarigugaq
+     kanarik+N+Pl+Nom: kanariguq
+     kanarik+N+Pl+Gen: kanarikkõ
+     kanarik+N+Pl+Par: kanarikkõ
+     kanarik+N+Pl+Ill: kanarikkõhe
+     kanarik+N+Pl+Ine: kanarigõn
+     kanarik+N+Pl+Ela: kanarigõst
+     kanarik+N+Pl+All: kanarigõlõ
+     kanarik+N+Pl+Ade: kanarigõl
+     kanarik+N+Pl+Abl: kanarigõlt
+     kanarik+N+Pl+Tra: kanarigõs
+     kanarik+N+Pl+Ter: kanarigõniq
+     kanarik+N+Pl+Abe: kanarigõldaq
+     kanarik+N+Pl+Com: kanarigõgaq

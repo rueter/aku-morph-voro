@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - hopõń: # Noun (12) hopõń 'eng /est /fin' - full paradigm
+     hopõń+N+Sg+Nom: hopõń
+     hopõń+N+Sg+Gen: hobõsõ
+     hopõń+N+Sg+Par: hobõst
+     hopõń+N+Sg+Ill: hobõsõhe
+     hopõń+N+Sg+Ine: hobõsõn
+     hopõń+N+Sg+Ela: hobõsõst
+     hopõń+N+Sg+All: hobõsõlõ
+     hopõń+N+Sg+Ade: hobõsõl
+     hopõń+N+Sg+Abl: hobõsõlt
+     hopõń+N+Sg+Tra: hobõsõs
+     hopõń+N+Sg+Ter: hobõsõniq
+     hopõń+N+Sg+Abe: hobõsõldaq
+     hopõń+N+Sg+Com: hobõsõgaq
+     hopõń+N+Pl+Nom: hobõsõq
+     hopõń+N+Pl+Gen: hobõsidõ
+     hopõń+N+Pl+Par: hobõsit
+     hopõń+N+Pl+Ill: hobõsihe
+     hopõń+N+Pl+Ine: hobõsin
+     hopõń+N+Pl+Ela: hobõsist
+     hopõń+N+Pl+All: hobõsilõ
+     hopõń+N+Pl+Ade: hobõsil
+     hopõń+N+Pl+Abl: hobõsilt
+     hopõń+N+Pl+Tra: hobõsis
+     hopõń+N+Pl+Ter: hobõsiniq
+     hopõń+N+Pl+Abe: hobõsildaq
+     hopõń+N+Pl+Com: hobõsidõgaq

@@ -1,0 +1,44 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Verb - kosima: # Verb (87) kosima 'eng /est /fin' - full paradigm
+     kosima+V+Inf/mA: kosima
+     kosima+V+Inf: kossiq
+     kosima+V+Act+PrfPrc: kosinuq
+     kosima+V+Pss+PrfPrc: kosit
+
+     kosima+V+Act+Ind+Prs+Sg1: kosi
+     kosima+V+Act+Ind+Prs+Sg2: kosit
+     kosima+V+Act+Ind+Prs+Sg3: kosi
+     kosima+V+Act+Ind+Prs+Pl1: kosimiq
+     kosima+V+Act+Ind+Prs+Pl2: kositiq
+     kosima+V+Act+Ind+Prs+Pl3: kosivaq
+     kosima+V+Act+Ind+ConNegII: kosi
+     kosima+V+Act+Ind+Prt+Sg1: kosõ
+     kosima+V+Act+Ind+Prt+Sg2: kosõt
+     kosima+V+Act+Ind+Prt+Sg3: kosõ
+     kosima+V+Act+Ind+Prt+Pl1: kosõmiq
+     kosima+V+Act+Ind+Prt+Pl2: kosõtiq
+     kosima+V+Act+Ind+Prt+Pl3: kosõq
+
+     kosima+V+Pss+Ind+Prs+Sg1: kosida
+     kosima+V+Pss+Ind+Prs+Sg3: kositas
+
+     kosima+V+Act+PrsPrc+Sg+Nom: kossiv
+
+     kosima+V+Jus: kosiguq

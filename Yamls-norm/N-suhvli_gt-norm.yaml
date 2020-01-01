@@ -1,0 +1,43 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct. 
+
+
+  Noun - suhvli: # Noun (5, 2) 'laatikko'
+     suhvli+N+Sg+Nom: suhvli
+     suhvli+N+Sg+Gen: suhvli
+     suhvli+N+Sg+Par: suhvlit
+     suhvli+N+Sg+Ill: suhvlihe
+     suhvli+N+Sg+Ine: suhvlin
+     suhvli+N+Sg+Ela: suhvlist
+     suhvli+N+Sg+All: suhvlilõ
+     suhvli+N+Sg+Ade: suhvlil
+     suhvli+N+Sg+Abl: suhvlilt
+     suhvli+N+Sg+Tra: suhvlis
+     suhvli+N+Sg+Ter: suhvliniq
+     suhvli+N+Sg+Abe: suhvlildaq
+     suhvli+N+Sg+Com: suhvligaq
+     suhvli+N+Pl+Nom: suhvliq
+     suhvli+N+Pl+Gen: suhvlidõ
+     suhvli+N+Pl+Par: suhvlit
+     suhvli+N+Pl+Ill: suhvlihe
+     suhvli+N+Pl+Ine: suhvlin
+     suhvli+N+Pl+Ela: suhvlist
+     suhvli+N+Pl+All: suhvlilõ
+     suhvli+N+Pl+Ade: suhvlil
+     suhvli+N+Pl+Abl: suhvlilt
+     suhvli+N+Pl+Tra: suhvlis
+     suhvli+N+Pl+Ter: suhvliniq
+     suhvli+N+Pl+Abe: suhvlildaq
+     suhvli+N+Pl+Com: suhvlidõgaq

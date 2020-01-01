@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - alomanõ: # Noun (19) alomanõ 'eng /est /fin' - full paradigm
+     alomanõ+A+Sg+Nom: alomanõ
+     alomanõ+A+Sg+Gen: alomadsõ
+     alomanõ+A+Sg+Par: alomast
+     alomanõ+A+Sg+Ill: alomastõ
+     alomanõ+A+Sg+Ine: alomadsõn
+     alomanõ+A+Sg+Ela: alomadsõst
+     alomanõ+A+Sg+All: alomadsõlõ
+     alomanõ+A+Sg+Ade: alomadsõl
+     alomanõ+A+Sg+Abl: alomadsõlt
+     alomanõ+A+Sg+Tra: alomadsõs
+     alomanõ+A+Sg+Ter: alomadsõniq
+     alomanõ+A+Sg+Abe: alomadsõldaq
+     alomanõ+A+Sg+Com: alomadsõgaq
+     alomanõ+A+Pl+Nom: alomadsõq
+     alomanõ+A+Pl+Gen: alomaidsi
+     alomanõ+A+Pl+Par: alomaidsi
+     alomanõ+A+Pl+Ill: alomaidsihe
+     alomanõ+A+Pl+Ine: alomaidsin
+     alomanõ+A+Pl+Ela: alomaidsist
+     alomanõ+A+Pl+All: alomaidsilõ
+     alomanõ+A+Pl+Ade: alomaidsil
+     alomanõ+A+Pl+Abl: alomaidsilt
+     alomanõ+A+Pl+Tra: alomaidsis
+     alomanõ+A+Pl+Ter: alomaidsiniq
+     alomanõ+A+Pl+Abe: alomaidsildaq
+     alomanõ+A+Pl+Com: alomaidsigaq
+
+     alomanõ+A+Comp+Sg+Nom: alomadsõmb

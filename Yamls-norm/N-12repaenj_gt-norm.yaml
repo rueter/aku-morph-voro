@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - repäń: # Noun (12) repäń 'eng /est /fin' - full paradigm
+     repäń+N+Sg+Nom: repäń
+     repäń+N+Sg+Gen: rebäse
+     repäń+N+Sg+Par: rebäst
+     repäń+N+Sg+Ill: rebäsehe
+     repäń+N+Sg+Ine: rebäsen
+     repäń+N+Sg+Ela: rebäsest
+     repäń+N+Sg+All: rebäsele
+     repäń+N+Sg+Ade: rebäsel
+     repäń+N+Sg+Abl: rebäselt
+     repäń+N+Sg+Tra: rebäses
+     repäń+N+Sg+Ter: rebäseniq
+     repäń+N+Sg+Abe: rebäseldäq
+     repäń+N+Sg+Com: rebäsegaq
+     repäń+N+Pl+Nom: rebäseq
+     repäń+N+Pl+Gen: rebäside
+     repäń+N+Pl+Par: rebäsit
+     repäń+N+Pl+Ill: rebäsihe
+     repäń+N+Pl+Ine: rebäsin
+     repäń+N+Pl+Ela: rebäsist
+     repäń+N+Pl+All: rebäsile
+     repäń+N+Pl+Ade: rebäsil
+     repäń+N+Pl+Abl: rebäsilt
+     repäń+N+Pl+Tra: rebäsis
+     repäń+N+Pl+Ter: rebäsiniq
+     repäń+N+Pl+Abe: rebäsildäq
+     repäń+N+Pl+Com: rebäsidegaq

@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - pundar: # Noun (28) pundar 'eng /est /fin' - full paradigm
+     pundar+N+Sg+Nom: pundar
+     pundar+N+Sg+Gen: puntra
+     pundar+N+Sg+Par: pundard
+     pundar+N+Sg+Ill: puntrahe
+     pundar+N+Sg+Ine: puntran
+     pundar+N+Sg+Ela: puntrast
+     pundar+N+Sg+All: puntralõ
+     pundar+N+Sg+Ade: puntral
+     pundar+N+Sg+Abl: puntralt
+     pundar+N+Sg+Tra: puntras
+     pundar+N+Sg+Ter: puntraniq
+     pundar+N+Sg+Abe: puntraldaq
+     pundar+N+Sg+Com: puntragaq
+     pundar+N+Pl+Nom: puntraq
+     pundar+N+Pl+Gen: puntridõ
+     pundar+N+Pl+Par: puntrit
+     pundar+N+Pl+Ill: puntrihe
+     pundar+N+Pl+Ine: puntrin
+     pundar+N+Pl+Ela: puntrist
+     pundar+N+Pl+All: puntrilõ
+     pundar+N+Pl+Ade: puntril
+     pundar+N+Pl+Abl: puntrilt
+     pundar+N+Pl+Tra: puntris
+     pundar+N+Pl+Ter: puntriniq
+     pundar+N+Pl+Abe: puntrildaq
+     pundar+N+Pl+Com: puntridõgaq

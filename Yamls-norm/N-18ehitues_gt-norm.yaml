@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - ehitüs: # Noun (18) ehitüs 'eng /est /fin' - full paradigm
+     ehitüs+N+Sg+Nom: ehitüs
+     ehitüs+N+Sg+Gen: ehitüse
+     ehitüs+N+Sg+Par: ehitüst
+     ehitüs+N+Sg+Ill: ehitüste
+     ehitüs+N+Sg+Ine: ehitüsen
+     ehitüs+N+Sg+Ela: ehitüsest
+     ehitüs+N+Sg+All: ehitüsele
+     ehitüs+N+Sg+Ade: ehitüsel
+     ehitüs+N+Sg+Abl: ehitüselt
+     ehitüs+N+Sg+Tra: ehitüses
+     ehitüs+N+Sg+Ter: ehitüseniq
+     ehitüs+N+Sg+Abe: ehitüseldäq
+     ehitüs+N+Sg+Com: ehitüsegaq
+     ehitüs+N+Pl+Nom: ehitüseq
+     ehitüs+N+Pl+Gen: ehitüisi
+     ehitüs+N+Pl+Par: ehitüisi
+     ehitüs+N+Pl+Ine: ehitüisin
+     ehitüs+N+Pl+Ill: ehitüisihe
+     ehitüs+N+Pl+Ela: ehitüisist
+     ehitüs+N+Pl+All: ehitüisile
+     ehitüs+N+Pl+Ade: ehitüisil
+     ehitüs+N+Pl+Abl: ehitüisilt
+     ehitüs+N+Pl+Tra: ehitüisis
+     ehitüs+N+Pl+Ter: ehitüisiniq
+     ehitüs+N+Pl+Abe: ehitüisildäq
+     ehitüs+N+Pl+Com: ehitüisigaq

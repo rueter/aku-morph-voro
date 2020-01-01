@@ -1,0 +1,46 @@
+
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - vari: # Noun (42) vari 'eng /est /fin' - full paradigm
+    vari+N+Sg+Nom: vari
+    vari+N+Sg+Gen: vaŕo
+    vari+N+Sg+Par: varjo
+    vari+N+Sg+Ill: varjo
+    vari+N+Sg+Ine: vaŕon
+    vari+N+Sg+Ela: vaŕost
+    vari+N+Sg+All: vaŕolõ
+    vari+N+Sg+Ade: vaŕol
+    vari+N+Sg+Abl: vaŕolt
+    vari+N+Sg+Tra: vaŕos
+    vari+N+Sg+Ter: vaŕoniq
+    vari+N+Sg+Abe: vaŕoldaq
+    vari+N+Sg+Com: vaŕogaq
+    vari+N+Pl+Nom: vaŕoq
+    vari+N+Pl+Gen: varjõ
+    vari+N+Pl+Par: varjõ
+    vari+N+Pl+Ill: varjõhe
+    vari+N+Pl+Ine: vaŕõn
+    vari+N+Pl+Ela: vaŕõst
+    vari+N+Pl+All: vaŕõlõ
+    vari+N+Pl+Ade: vaŕõl
+    vari+N+Pl+Abl: vaŕõlt
+    vari+N+Pl+Tra: vaŕõs
+    vari+N+Pl+Ter: vaŕõniq
+    vari+N+Pl+Abe: vaŕõldaq
+    vari+N+Pl+Com: varjõgaq

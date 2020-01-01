@@ -1,0 +1,45 @@
+Config:
+  hfst:
+    Gen: ../../../src/generator-gt-norm.hfst
+    Morph: ../../../src/analyser-gt-norm.hfst
+  xerox:
+    Gen: ../../../src/generator-gt-norm.xfst
+    Morph: ../../../src/analyser-gt-norm.xfst
+    App: lookup
+
+Tests:
+
+
+
+# todo:
+# Proofread the gold standard (below)
+# Then: run analyser, then correct.
+
+
+  Noun - füüsiga: # Noun (7) füüsiga 'eng /est /fin' - full paradigm
+     füüsiga+N+Sg+Nom: füüsiga
+     füüsiga+N+Sg+Gen: füüsiga
+     füüsiga+N+Sg+Par: füüsikat
+     füüsiga+N+Sg+Ill: füüsikahe
+     füüsiga+N+Sg+Ine: füüsikan
+     füüsiga+N+Sg+Ela: füüsikast
+     füüsiga+N+Sg+All: füüsikalõ
+     füüsiga+N+Sg+Ade: füüsikal
+     füüsiga+N+Sg+Abl: füüsikalt
+     füüsiga+N+Sg+Tra: füüsikas
+     füüsiga+N+Sg+Ter: füüsikaniq
+     füüsiga+N+Sg+Abe: füüsikaldaq
+     füüsiga+N+Sg+Com: füüsigagaq
+     füüsiga+N+Pl+Nom: füüsigaq
+     füüsiga+N+Pl+Gen: füüsikidõ
+     füüsiga+N+Pl+Par: füüsikit
+     füüsiga+N+Pl+Ill: füüsikihe
+     füüsiga+N+Pl+Ine: füüsikin
+     füüsiga+N+Pl+Ela: füüsikist
+     füüsiga+N+Pl+All: füüsikilõ
+     füüsiga+N+Pl+Ade: füüsikil
+     füüsiga+N+Pl+Abl: füüsikilt
+     füüsiga+N+Pl+Tra: füüsikis
+     füüsiga+N+Pl+Ter: füüsikiniq
+     füüsiga+N+Pl+Abe: füüsikildaq
+     füüsiga+N+Pl+Com: füüsikidõgaq
